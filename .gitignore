@@ -1,0 +1,54 @@
+# Built artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Build directories
+**/build/
+**/outputs/
+bin/
+gen/
+out/
+.externalNativeBuild
+.cxx/
+captures/
+
+# IDE & Editor
+*.iml
+.idea/
+.navigation/
+.local/
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+
+# Logs & diagnostics
+*.log
+*.hprof
+
+# Environment & secrets
+local.properties
+*.jks
+*.keystore
+.env
+.env.*
+
+# Generated files
+**/generated/
+app/build/generated/
+
+# Compose-specific (if using previews)
+app/build/generated/not_namespaced_r_class_sources/
+
+# Kotlin
+*.kotlin_module
+
+# System files
+*.log.*
+*.pyc
+*.sw?
+*~
