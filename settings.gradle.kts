@@ -21,4 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "Sonerim Test"
 include(":app")
- 
+include(":data")
+include(":domain")
+include(":feature:home")
+include(":model")
+include(":feature:detail")
